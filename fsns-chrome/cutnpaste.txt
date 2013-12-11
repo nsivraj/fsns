@@ -1,0 +1,157 @@
+
+<div class="action gadget gotoGadget personAdded" id="Nextsteps">
+<a id="openNextsteps" href="javascript:FS.noop();" class="gotoLink actionTab fs-icon-before-tree tree">
+History<span class="downArrow"></span></a>
+<div class="gotoList visible" style="top: 8px; left: -1080px; right: auto; bottom: auto;">
+
+// this html snippet creates the Go To: text box
+//<div title="KWZ8-DLB"><div class="gotoIdEntry">
+//<span>Go To:</span><input id="goToByIdText" type="text" placeholder="KWZ8-DLB">
+//<a class="fs-icon-goto" href="javascript:void(0)"></a></div>
+//<div class="gotoDivider"></div></div>
+
+// this html snippet creates the current tree location root nodes person
+//<a id="gotoEntry0" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWZ8-DLB">
+//<span class="name male living" title="Norman Chris Jarvis">Norman Chris Jarvis</span>
+//<p id="goto_KWZ8-DLB_lifespan" class="lifeSpan">1969-Living</p>
+//<p id="goto_KWZ8-DLB_pid" class="pid">KWZ8-DLB</p></a>
+
+//<div class="gotoDivider"></div>
+
+<div class="scrolling-list scroll" style="height: 115px;">
+<a id="gotoEntry1" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KPH8-HVV">
+<span class="name male " title="平田金三郎">平田金三郎</span>
+<p id="goto_KPH8-HVV_lifespan" class="lifeSpan">1832-Deceased</p>
+<p id="goto_KPH8-HVV_pid" class="pid">KPH8-HVV</p></a>
+
+<a id="gotoEntry2" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWHF-W95">
+<span class="name male " title="Warren Lake Jarvis">Warren Lake Jarvis</span>
+<p id="goto_KWHF-W95_lifespan" class="lifeSpan">1921-2010</p>
+<p id="goto_KWHF-W95_pid" class="pid">KWHF-W95</p></a>
+
+<a id="gotoEntry3" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LHJ3-B47">
+<span class="name male " title="Enos Hensley">Enos Hensley</span>
+<p id="goto_LHJ3-B47_lifespan" class="lifeSpan">1815-1880</p>
+<p id="goto_LHJ3-B47_pid" class="pid">LHJ3-B47</p></a>
+
+<a id="gotoEntry4" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=98G9-96X"><span class="name male " title="Franklin Montague">Franklin Montague</span><p id="goto_98G9-96X_lifespan" class="lifeSpan">1880-Deceased</p><p id="goto_98G9-96X_pid" class="pid">98G9-96X</p></a><a id="gotoEntry5" class="gotoEntry fs-icon-female-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWZ8-DLY"><span class="name female living" title="Elizabeth Rhoades">Elizabeth Rhoades</span><p id="goto_KWZ8-DLY_lifespan" class="lifeSpan">1967-Living</p><p id="goto_KWZ8-DLY_pid" class="pid">KWZ8-DLY</p></a><a id="gotoEntry6" class="gotoEntry fs-icon-female-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LZFT-BP5"><span class="name female " title="Jennie Bishop Arnold">Jennie Bishop Arnold</span><p id="goto_LZFT-BP5_lifespan" class="lifeSpan">1858-Deceased</p><p id="goto_LZFT-BP5_pid" class="pid">LZFT-BP5</p></a><a id="gotoEntry7" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWN3-H62"><span class="name male living" title="Joshua Seth Jarvis">Joshua Seth Jarvis</span><p id="goto_KWN3-H62_lifespan" class="lifeSpan">1995-Living</p><p id="goto_KWN3-H62_pid" class="pid">KWN3-H62</p></a><a id="gotoEntry8" class="gotoEntry fs-icon-unknown-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LDB2-JFW"><span class="name unknown living" title="Unknown Name">Unknown Name</span><p id="goto_LDB2-JFW_lifespan" class="lifeSpan">Living</p><p id="goto_LDB2-JFW_pid" class="pid">LDB2-JFW</p></a><a id="gotoEntry9" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=9FPF-7M2"><span class="name male " title="Burton Hensley">Burton Hensley</span><p id="goto_9FPF-7M2_lifespan" class="lifeSpan">1868-Deceased</p><p id="goto_9FPF-7M2_pid" class="pid">9FPF-7M2</p></a><a id="gotoEntry10" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=K24F-872"><span class="name male " title="Marcus Augustus Lindley">Marcus Augustus Lindley</span><p id="goto_K24F-872_lifespan" class="lifeSpan">1845-1926</p><p id="goto_K24F-872_pid" class="pid">K24F-872</p></a>
+
+<a id="gotoEntry11" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWFG-4KK">
+<span class="name male living" title="Matthew Ammon Jarvis">Matthew Ammon Jarvis</span>
+<p id="goto_KWFG-4KK_lifespan" class="lifeSpan">1994-Living</p>
+<p id="goto_KWFG-4KK_pid" class="pid">KWFG-4KK</p></a>
+</div>
+
+//<div class="gotoDivider"></div>
+
+//<div class="createNewPerson">
+//<a href="javascript:void(0);" data-event="CreateNewPerson" onclick="FS.trackLink(true, 'Family Tree: Tree Drop Down: Create Unconnected Person');">Add Unconnected Person</a>
+//</div>
+
+//<div class="navFlyoutDirection"><div>
+          
+          </div>
+        </div></div></div>
+
+        
+        
+        
+			
+'<a id="nextstepsEntry1" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KPH8-HVV">'+
+'<span class="name male " title="平田金三郎">平田金三郎</span>'+
+'<p id="nextsteps_KPH8-HVV_lifespan" class="lifeSpan">1832-Deceased</p>'+
+'<p id="nextsteps_KPH8-HVV_pid" class="pid">KPH8-HVV</p></a>'+
+'<a id="nextstepsEntry2" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWHF-W95">'+
+'<span class="name male " title="Warren Lake Jarvis">Warren Lake Jarvis</span>'+
+'<p id="nextsteps_KWHF-W95_lifespan" class="lifeSpan">1921-2010</p>'+
+'<p id="nextsteps_KWHF-W95_pid" class="pid">KWHF-W95</p></a>'+
+'<a id="nextstepsEntry3" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LHJ3-B47">'+
+'<span class="name male " title="Enos Hensley">Enos Hensley</span>'+
+'<p id="nextsteps_LHJ3-B47_lifespan" class="lifeSpan">1815-1880</p>'+
+'<p id="nextsteps_LHJ3-B47_pid" class="pid">LHJ3-B47</p></a>'+
+'<a id="nextstepsEntry4" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=98G9-96X"><span class="name male " title="Franklin Montague">Franklin Montague</span><p id="nextsteps_98G9-96X_lifespan" class="lifeSpan">1880-Deceased</p><p id="nextsteps_98G9-96X_pid" class="pid">98G9-96X</p></a><a id="nextstepsEntry5" class="gotoEntry fs-icon-female-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWZ8-DLY"><span class="name female living" title="Elizabeth Rhoades">Elizabeth Rhoades</span><p id="nextsteps_KWZ8-DLY_lifespan" class="lifeSpan">1967-Living</p><p id="nextsteps_KWZ8-DLY_pid" class="pid">KWZ8-DLY</p></a><a id="nextstepsEntry6" class="gotoEntry fs-icon-female-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LZFT-BP5"><span class="name female " title="Jennie Bishop Arnold">Jennie Bishop Arnold</span><p id="nextsteps_LZFT-BP5_lifespan" class="lifeSpan">1858-Deceased</p><p id="nextsteps_LZFT-BP5_pid" class="pid">LZFT-BP5</p></a><a id="nextstepsEntry7" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWN3-H62"><span class="name male living" title="Joshua Seth Jarvis">Joshua Seth Jarvis</span><p id="nextsteps_KWN3-H62_lifespan" class="lifeSpan">1995-Living</p><p id="nextsteps_KWN3-H62_pid" class="pid">KWN3-H62</p></a><a id="nextstepsEntry8" class="gotoEntry fs-icon-unknown-micro" href="https://familysearch.org/tree/#view=tree&amp;person=LDB2-JFW"><span class="name unknown living" title="Unknown Name">Unknown Name</span><p id="nextsteps_LDB2-JFW_lifespan" class="lifeSpan">Living</p><p id="nextsteps_LDB2-JFW_pid" class="pid">LDB2-JFW</p></a><a id="nextstepsEntry9" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=9FPF-7M2"><span class="name male " title="Burton Hensley">Burton Hensley</span><p id="nextsteps_9FPF-7M2_lifespan" class="lifeSpan">1868-Deceased</p><p id="nextsteps_9FPF-7M2_pid" class="pid">9FPF-7M2</p></a><a id="nextstepsEntry10" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=K24F-872"><span class="name male " title="Marcus Augustus Lindley">Marcus Augustus Lindley</span><p id="nextsteps_K24F-872_lifespan" class="lifeSpan">1845-1926</p><p id="nextsteps_K24F-872_pid" class="pid">K24F-872</p></a>'+
+'<a id="nextstepsEntry11" class="gotoEntry fs-icon-male-micro" href="https://familysearch.org/tree/#view=tree&amp;person=KWFG-4KK">'+
+'<span class="name male living" title="Matthew Ammon Jarvis">Matthew Ammon Jarvis</span>'+
+'<p id="nextsteps_KWFG-4KK_lifespan" class="lifeSpan">1994-Living</p>'+
+'<p id="nextsteps_KWFG-4KK_pid" class="pid">KWFG-4KK</p></a>'+
+
+
+
+        
+        
+        
+        
+https://beta.familysearch.org/ct/persons/KWZ8-DLB?mediaType=application/json
+{"properties":{"lifespan":{"years":"1969 - ","value":"3 August 1969 - "},"living":true},"id":"KWZ8-DLB","link":null,"conclusions":{"list":[{"genderConclusion":{"type":"MALE","id":"V.777-777P","justification":{"reason":null,"confidence":null},"conclusionType":"GENDER","behavior":"SINGLE_VALUE_NON_DELETABLE","contribution":{"timeStamp":null,"contributorId":null,"submitterId":null}}},{"nameConclusion":{"type":"BIRTH","preferred":true,"style":"EUROTYPIC","primaryForm":{"prefixPart":null,"givenPart":"Norman Chris","familyPart":"Jarvis","suffixPart":null,"script":"UNSPECIFIED","fullText":"Norman Chris Jarvis"},"alternateForms":[],"id":"V.777-7771","justification":{"reason":null,"confidence":null},"conclusionType":"NAME","behavior":"SINGLE_VALUE_NON_DELETABLE","contribution":{"timeStamp":null,"contributorId":null,"submitterId":null}}},{"eventConclusion":{"type":"BIRTH","date":{"originalText":"19690803","normalizedText":"3 August 1969","localizedText":"3 August 1969","julianDateRange":{"earliestDay":2440437,"latestDay":2440437},"modifier":null},"place":{"originalText":"Yuma, Yuma, Arizona","normalizedText":"Yuma, Yuma, Arizona, United States","localizedText":"Yuma, Yuma, Arizona, United States","geoCode":null},"id":"V.777-7774","justification":{"reason":null,"confidence":null},"conclusionType":"BIRTH","behavior":"SINGLE_VALUE_NON_DELETABLE","contribution":{"timeStamp":null,"contributorId":null,"submitterId":null}}}]},"parentChildRelationship":null,"spaceId":"MM58-1FL","coupleRelationship":null}
+
+
+https://beta.familysearch.org/tree-data/reservations/person/KWZ8-DLB/ordinances?tz=420&locale=en&_=1386286314034
+{"status":"OK","statusText":null,"data":{"id":"KWZ8-DLB","name":null,"givenName":null,"familyName":null,"nameFormScript":null,"lifespan":"Deceased","gender":"Unknown","baptism":{"type":"Baptism","status":"NeedsMoreInformation","whyNotQualifying":[],"statusText":"Needs More Information","hoverText":"Baptism needs more information.","bornInCovenant":false,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":null,"fatherName":null,"motherId":null,"motherName":null,"spouseId":null,"spouseName":null,"spouseGender":null}},"confirmation":{"type":"Confirmation","status":"NeedsMoreInformation","whyNotQualifying":[],"statusText":"Needs More Information","hoverText":"Confirmation needs more information.","bornInCovenant":false,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":null,"fatherName":null,"motherId":null,"motherName":null,"spouseId":null,"spouseName":null,"spouseGender":null}},"initiatory":{"type":"Initiatory","status":"NeedsMoreInformation","whyNotQualifying":[],"statusText":"Needs More Information","hoverText":"Initiatory needs more information.","bornInCovenant":false,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":null,"fatherName":null,"motherId":null,"motherName":null,"spouseId":null,"spouseName":null,"spouseGender":null}},"endowment":{"type":"Endowment","status":"NeedsMoreInformation","whyNotQualifying":[],"statusText":"Needs More Information","hoverText":"Endowment needs more information.","bornInCovenant":false,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":null,"fatherName":null,"motherId":null,"motherName":null,"spouseId":null,"spouseName":null,"spouseGender":null}},"sealingsToParents":[{"type":"SealingToParents","status":"NeedsMoreInformation","whyNotQualifying":[],"statusText":"Needs More Information","hoverText":"Sealing to Parents needs more information.","bornInCovenant":false,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":"KWHF-W95","fatherName":"Warren Lake Jarvis","motherId":"KWHF-W9T","motherName":"Dorothy Rita Haws","spouseId":null,"spouseName":null,"spouseGender":null}}],"sealingsToSpouses":[{"type":"SealingToSpouse","status":"NotAvailable","whyNotQualifying":[],"statusText":"Not Available","hoverText":"Sealing to Spouse not available.","bornInCovenant":null,"owner":null,"ownerName":null,"assignedToTemple":false,"canAssign":false,"canUnreserve":false,"reserve":false,"canPrint":false,"reservedDate":null,"comparableReservedDate":null,"lastModifiedDate":null,"comparableLastModifiedDate":null,"completedDate":null,"completedPlace":null,"relationships":{"fatherId":null,"fatherName":null,"motherId":null,"motherName":null,"spouseId":null,"spouseName":null,"spouseGender":null}}]},"statuses":null}
+
+
+https://beta.familysearch.org/tree-data/family-members/person/KWZ8-DLB?tz=420&locale=en&_=1386286314033
+{"status":"OK","statusText":null,"data":{"parents":[{"husband":{"id":"KWHF-W95","lifeSpanDates":"","isDeleted":false,"name":"Warren Lake Jarvis","gender":"Male","lifeSpan":"1921-2010","isLiving":false,"principlePerson":false,"living":false},"wife":{"id":"KWHF-W9T","lifeSpanDates":"","isDeleted":false,"name":"Dorothy Rita Haws","gender":"Female","lifeSpan":"1942-2003","isLiving":false,"principlePerson":false,"living":false},"current":true,"relationshipId":"MDQW-TKZ","coupleId":"KWHF-W95_KWHF-W9T","event":{"originalPlace":"Nogales, Sonora, Mexico","standardPlace":"Nogales, Sonora, Mexico","originalDate":"8 February 1966","standardDate":"8 February 1966","type":"MARRIAGE"},"children":[{"id":"KWHJ-FBN","lifeSpanDates":"","isDeleted":false,"name":"Warren Horace Jarvis","gender":"Male","lifeSpan":"1943-2011","isLiving":false,"principlePerson":false,"relationshipId":"MWP6-VX5","lineageConclusions":[],"living":false},{"id":"KWZ8-DLB","lifeSpanDates":"","isDeleted":false,"name":"Norman Chris Jarvis","gender":"Male","lifeSpan":"1969-Living","isLiving":true,"principlePerson":true,"relationshipId":"MZT9-6K3","lineageConclusions":[],"living":true}]}],"spouses":[{"husband":{"id":"KWZ8-DLB","lifeSpanDates":"","isDeleted":false,"name":"Norman Chris Jarvis","gender":"Male","lifeSpan":"1969-Living","isLiving":true,"principlePerson":true,"living":true},"wife":{"id":"LXNM-DFF","lifeSpanDates":"","isDeleted":false,"name":"Elizabeth Rhoades","gender":"Female","lifeSpan":"1967-Living","isLiving":true,"principlePerson":false,"living":true},"current":true,"relationshipId":"MX7R-R8G","coupleId":"KWZ8-DLB_LXNM-DFF","event":{"originalPlace":"Idaho Falls, Bonneville, Idaho","standardPlace":"Idaho Falls, Bonneville, Idaho, United States","originalDate":"19 December 1992","standardDate":"19 December 1992","type":"MARRIAGE"},"children":[{"id":"LXNM-DXZ","lifeSpanDates":"","isDeleted":false,"name":"Joshua Seth Jarvis","gender":"Male","lifeSpan":"1995-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-34T","lineageConclusions":[],"living":true},{"id":"LXNM-DF6","lifeSpanDates":"","isDeleted":false,"name":"Nathaniel Aaron Jarvis","gender":"Male","lifeSpan":"1997-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-3HK","lineageConclusions":[],"living":true},{"id":"LXNM-DFK","lifeSpanDates":"","isDeleted":false,"name":"Sabin Aline Jarvis","gender":"Female","lifeSpan":"1999-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-34N","lineageConclusions":[],"living":true},{"id":"LXNM-DFC","lifeSpanDates":"","isDeleted":false,"name":"Corinne Elise Jarvis","gender":"Female","lifeSpan":"2001-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-3WP","lineageConclusions":[],"living":true},{"id":"LXNM-DF9","lifeSpanDates":"","isDeleted":false,"name":"Neil Christian Jarvis","gender":"Male","lifeSpan":"2002-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-371","lineageConclusions":[],"living":true},{"id":"LXNM-DXG","lifeSpanDates":"","isDeleted":false,"name":"Claire Michaelyn Jarvis","gender":"Female","lifeSpan":"2004-Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-3CS","lineageConclusions":[],"living":true},{"id":"LXNM-DXN","lifeSpanDates":"","isDeleted":false,"name":"Matthew Ammon Jarvis","gender":"Male","lifeSpan":"Living","isLiving":true,"principlePerson":false,"relationshipId":"MKKJ-379","lineageConclusions":[],"living":true}]}]},"statuses":null}
+
+
+
+
+
+
+XSPerson.prototype = {
+	setPersonId: function(pid) {
+		this.personId = pid;
+	},
+	getPersonId: function() {
+		return this.personId;
+	},
+	setName: function(nam) {
+		this.name = nam;
+	},
+	getName: function() {
+		return this.name;
+	},
+	setLifeSpan: function(span) {
+		this.lifeSpan = span;
+	},
+	getLifeSpan: function() {
+		return this.lifeSpan;
+	},
+	setGender: function(gend) {
+		this.gender = gend;
+	},
+	getGender: function() {
+		return this.gender;
+	},
+	setLiving: function(live) {
+		this.living = live;
+	},
+	getLiving: function() {
+		return this.living;
+	}
+}
+
+
+
+
+	
+
+	// need logic to determine who the currently logged in user is
+	//var currentPersonIdEntry = document.getElementById('gotoEntry0');
+	//alert("currentPersonIdEntry: "+currentPersonIdEntry);
+	//var currentPersonId = $('#gotoEntry0').find('.pid').text();
+	//alert("currentPersonId: "+currentPersonId);
+	//alert("loggedInPersonId: "+loggedInPersonId);
+	
+	//urls to use to populate this list
+	// this one first to get the family structure
+	// '/tree-data/family-members/person/'+loggedInPersonId+'?tz=420&locale='+FS.locale
+	
+	// this next one would only be needed if we didn't know whether the person was living
+	// '/ct/persons/'+loggedInPersonId+'?mediaType=application/json'
+	
+	// this one is for knowing whether the person should be added to the nextsteps list
+	// '/tree-data/reservations/person/'+loggedInPersonId+'/ordinances?tz=420&locale='+FS.locale
+	
+
+
+

@@ -1,0 +1,40 @@
+{
+  "name": "FSNS chrome extension",
+  "version": "1.0.2",
+  "manifest_version": 2,
+  "description": "Adds the FSNS feature to the FamilySearch.org website",
+  "homepage_url": "http://www.familysearch.org/",
+  "icons": {
+    "16": "src/images/icon16.png",
+    "48": "src/images/icon48.png",
+    "128": "src/images/icon128.png"
+  },
+  "page_action": {
+    "default_icon": "src/images/icon19.png",
+    "default_title": "FSNS",
+    "default_popup": "src/html/page_action.html"
+  },
+  "options_page" : "src/html/page_action.html#settings",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "css": [
+        "src/css/addFeature.css"
+      ],
+      "js": [
+        "src/js/injectScript.js"
+      ]
+    }
+    ],
+	"permissions": [
+	    "storage"
+  	],
+	"web_accessible_resources" : [
+		"src/html/page_action.html",
+		"src/js/addFeature.js"
+	]
+}
+
