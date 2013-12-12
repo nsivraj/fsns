@@ -34,7 +34,8 @@
   	],
 	"web_accessible_resources" : [
 		"src/html/page_action.html",
-		"src/js/addFeature.js"
+		"src/js/addFeature.js",
+		"src/css/addFeature.css"
 	]
 }
 

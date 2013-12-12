@@ -357,8 +357,9 @@ function addFeature() {
 		{
 	    	//alert("adding nextsteps dropdown: "+treeTab);
 			// insert the dropdown into the page
+			//openssl base64 < /Users/normanjarvis/Downloads/shoe.svg | tr -d '\n' | pbcopy
 			var nextstepDropdownHtml = '<span class="pageTabItem hasSub selected" id="nextstepTab">'+
-		            '<a class="pageTabLink fs-icon-favorites" data-event="tabClicked" href="javascript:void(0);">Nextsteps</a>'+
+		            '<a class="pageTabLink fs-icon-shoe" data-event="tabClicked" href="javascript:void(0);">Nextsteps</a>'+
 		            '<a class="pageSubLink" data-list="tree" href="javascript:clickNextstepsDropdown();"></a>'+
 		          	'</span>';
 			treeTab.insertAdjacentHTML('beforebegin', nextstepDropdownHtml);
